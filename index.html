@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitFuel - Online Fitness Coaching</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="bg-background text-text">
+    <header class="bg-primary py-6">
+        <nav class="container mx-auto px-4 flex justify-between items-center">
+            <div class="text-white font-bold text-xl">FitFuel</div>
+            <button id="nav-toggle" class="block md:hidden focus:outline-none">
+                <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+                    <path d="M4 6h16v2H4V6zm0 5h16v2H4v-2zm0 5h16v2H4v-2z"></path>
+                </svg>
+            </button>
+            <ul id="nav-menu" class="hidden md:flex space-x-4">
+                <li><a href="#programs" class="text-white hover:text-secondary">Programs</a></li>
+                <li><a href="#pricing" class="text-white hover:text-secondary">Pricing</a></li>
+                <li><a href="#testimonials" class="text-white hover:text-secondary">Testimonials</a></li>
+                <li><a href="#contact" class="text-white hover:text-secondary">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="hero" class="bg-hero-bg bg-cover bg-center py-24">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold text-white mb-4">Transform Your Body</h1>
+            <p class="text-lg md:text-xl text-white mb-8">Get personalized fitness plans from expert coaches.</p>
+            <a href="#contact" class="bg-secondary text-white py-3 px-6 rounded-full hover:bg-primary transition duration-300">Get Started</a>
+        </div>
+    </section>
+    <section id="programs" class="py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Our Programs</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-bold mb-4">Weight Loss</h3>
+                    <p class="mb-4">Lose weight safely and effectively with our tailored plans.</p>
+                    <a href="#contact" class="bg-secondary text-white py-2 px-4 rounded-full hover:bg-primary transition duration-300">Join Now</a>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-bold mb-4">Muscle Gain</h3>
+                    <p class="mb-4">Build muscle mass and strength with our expert guidance.</p>
+                    <a href="#contact" class="bg-secondary text-white py-2 px-4 rounded-full hover:bg-primary transition duration-300">Join Now</a>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-bold mb-4">Flexibility &amp; Balance</h3>
+                    <p class="mb-4">Improve flexibility and balance with our specialized routines.</p>
+                    <a href="#contact" class="bg-secondary text-white py-2 px-4 rounded-full hover:bg-primary transition duration-300">Join Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="pricing" class="bg-gray-100 py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Pricing Plans</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-bold mb-4">Basic</h3>
+                    <p class="text-3xl font-bold mb-4">$29/mo</p>
+                    <ul class="list-disc pl-6 mb-6">
+                        <li>Weekly Workouts</li>
+                        <li>Nutrition Tips</li>
+                    </ul>
+                    <a href="#contact" class="bg-secondary text-white py-2 px-4 rounded-full hover:bg-primary transition duration-300">Sign Up</a>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-bold mb-4">Premium</h3>
+                    <p class="text-3xl font-bold mb-4">$49/mo</p>
+                    <ul class="list-disc pl-6 mb-6">
+                        <li>Bi-weekly Workouts</li>
+                        <li>Nutrition Plans</li>
+                        <li>Personalized Coaching</li>
+                    </ul>
+                    <a href="#contact" class="bg-secondary text-white py-2 px-4 rounded-full hover:bg-primary transition duration-300">Sign Up</a>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-bold mb-4">Elite</h3>
+                    <p class="text-3xl font-bold mb-4">$79/mo</p>
+                    <ul class="list-disc pl-6 mb-6">
+                        <li>Daily Workouts</li>
+                        <li>Custom Nutrition</li>
+                        <li>24/7 Support</li>
+                        <li>Advanced Techniques</li>
+                    </ul>
+                    <a href="#contact" class="bg-secondary text-white py-2 px-4 rounded-full hover:bg-primary transition duration-300">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials" class="py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">What Our Clients Say</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <p class="text-lg mb-4">"FitFuel has completely transformed my body and mindset. The coaches are knowledgeable and supportive."</p>
+                    <div class="flex items-center">
+                        <img src="https://via.placeholder.com/50" alt="Client Photo" class="rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">John Doe</h4>
+                            <p class="text-gray-600">Happy Client</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <p class="text-lg mb-4">"I've seen incredible results in just a few months. Highly recommend FitFuel to anyone looking to get fit."</p>
+                    <div class="flex items-center">
+                        <img src="https://via.placeholder.com/50" alt="Client Photo" class="rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Jane Smith</h4>
+                            <p class="text-gray-600">Happy Client</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="bg-gray-100 py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Contact Us</h2>
+            <form id="contact-form" class="max-w-lg mx-auto">
+                <div class="mb-4">
+                    <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                    <input type="text" id="name" name="name" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-secondary focus:border-secondary sm:text-sm" required>
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                    <input type="email" id="email" name="email" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-secondary focus:border-secondary sm:text-sm" required>
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                    <textarea id="message" name="message" rows="4" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-secondary focus:border-secondary sm:text-sm" required></textarea>
+                </div>
+                <button type="submit" class="bg-secondary text-white py-3 px-6 rounded-full hover:bg-primary transition duration-300">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer class="bg-primary py-6">
+        <div class="container mx-auto px-4 text-center text-white">
+            <p>&copy; 2023 FitFuel. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+</html>
