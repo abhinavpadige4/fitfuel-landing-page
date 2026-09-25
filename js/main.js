@@ -34,12 +34,12 @@ document.addEventListener('DOMContentLoaded', function() {
     if (isValid) {
       formAlert.textContent = 'Thank you for your message!';
       formAlert.classList.remove('hidden');
-      formAlert.classList.add('bg-green-500', 'text-white');
+      formAlert.classList.add('bg-green-100', 'text-green-700');
       form.reset();
     } else {
       formAlert.textContent = 'Please fill out all fields correctly.';
       formAlert.classList.remove('hidden');
-      formAlert.classList.add('bg-red-500', 'text-white');
+      formAlert.classList.add('bg-red-100', 'text-red-700');
     }
   });
 
